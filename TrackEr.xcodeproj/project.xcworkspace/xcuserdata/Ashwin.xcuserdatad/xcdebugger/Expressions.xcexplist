@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AthleteDetailViewController.viewWillAppear(Bool) -&gt; ():AthleteDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sentName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AthletesViewController.viewWillAppear(Bool) -&gt; ():AthletesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "defaults">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewAthleteFormViewController.createAthlete(with : String, bio : String, phone : Int, grade : Int) -&gt; ():NewAthleteFormViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "OnboardingViewController.getstarted(Any) -&gt; ():OnboardingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nameTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
