@@ -23,6 +23,8 @@ class TimerViewController: UIViewController, UIApplicationDelegate {
     
     @IBOutlet weak var stopbutton: UIButton!
     
+    var isOn = false;
+    
     // manages slider values in realtime
     @IBAction func slider(_ sender: UISlider) {
         print("Slider Moved")
@@ -33,8 +35,14 @@ class TimerViewController: UIViewController, UIApplicationDelegate {
     // starts timer
     @IBAction func start(_ sender: Any) {
         print("Start button pressed")
+        if isOn == false {
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerViewController.counter), userInfo: nil, repeats: true)
+            isOn = true;
+        }
+        
+        
         // will call counter() every second
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerViewController.counter), userInfo: nil, repeats: true)
+
     }
     
     // deducts 1 second from the seconds property every time it's called

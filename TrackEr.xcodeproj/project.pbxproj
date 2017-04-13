@@ -281,7 +281,7 @@
 				TargetAttributes = {
 					CF1DC9001E6E2B1400663317 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 73649R3F49;
+						DevelopmentTeam = W4BXTUE4S6;
 						ProvisioningStyle = Automatic;
 					};
 					CF1DC9161E6E2B1500663317 = {
@@ -523,11 +523,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 73649R3F49;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W4BXTUE4S6;
 				INFOPLIST_FILE = TrackEr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AshwinAggarwal.TrackEr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AshwinAggarwal.TrackEr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos10.2;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -538,11 +541,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 73649R3F49;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W4BXTUE4S6;
 				INFOPLIST_FILE = TrackEr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AshwinAggarwal.TrackEr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AshwinAggarwal.TrackEr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos10.2;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
