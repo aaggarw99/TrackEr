@@ -4,7 +4,9 @@
 TrackEr is intended for coaches that seek an easier way to communicate with their athletes. TrackEr implements several functionalities that coaches would use on a daily basis: timer, stopwatch, list of athletes, and instant text-message functionality. Whether you’re recording the splits of a workout or timing a core exercise, TrackEr helps coaches send updated times and records to athletes.
 
 </p>
-
+<p>
+The App is currently on the app store <a href="https://appsto.re/us/cDG7ib.i">here</a>.
+</p>
 
 <h3>Requirements</h3>
 
